@@ -1,0 +1,66 @@
+II. Вариант
+<!DOCTYPE html>
+ <html>
+     <head>
+< title > START V3</ title > 
+
+<!-- style for span tag --> 
+      < style type = text /css> 
+          span{ 
+          color: black; 
+          text-decoration: underline; 
+          font-style: italic; 
+          font-weight: bold; 
+          font-size: 26px; 
+      } 
+       </ style > 
+
+         <script type="text/javascript">
+         function changecolors() {
+             x = 3; // <-- I know this is wrong, I just don't know where to place it 
+             var t = setTimeout("change()", 3000);
+         }
+         function change() {
+             while(x < 3) {
+                 if(x = 3) {
+                     color = " blue ";
+                     x++;
+       < h2 > START V3</ h2 > 
+
+                 } else if (x = 2) {
+                     color = "green";
+                     x = 3;
+                 }
+                 document.body.style.background = color;
+function timedText() {
+  var x = document.getElementById("txt");
+  setTimeout(function(){ x.value=" c 2 seconds" }, 2000);
+  setTimeout(function(){ x.value=" d 2 seconds" }, 2000);
+  setTimeout(function(){ x.value="e 2 seconds" }, 2000);
+  setTimeout(function(){ x.value=" f 2 seconds" }, 2000);
+  setTimeout(function(){ x.value=" j 2 seconds" }, 2000);
+  setTimeout(function(){ x.value="h 2 seconds" }, 2000);  
+setTimeout(function(){ x.value=" i 2 seconds" }, 2000);
+  setTimeout(function(){ x.value=" i 2 seconds" }, 2000);
+  setTimeout(function(){ x.value="j 2 seconds" }, 2000);
+setTimeout(function(){ x.value=" k 2 seconds" }, 2000);
+  setTimeout(function(){ x.value=" l 2 seconds" }, 2000);
+  setTimeout(function(){ x.value="m 2 seconds" }, 2000);
+  setTimeout(function(){ x.value=" n 2 seconds" }, 2000);
+  }
+           }
+         }
+     </head>
+     <body onload="changecolors()">
+setTimeout(function(){
+  if ($('#divID').length > 0) {
+    $('#divID').remove();
+  }
+}, 20000)
+<script type="text/javascript">
+document.write("END");
+</script>
+
+    </body>
+ </html>
+
