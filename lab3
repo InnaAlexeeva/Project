@@ -1,0 +1,82 @@
+
+II. Вариант
+<!DOCTYPE html>
+ <html>
+     <head>
+< title > START V3</ title > 
+
+<!-- style for span tag --> 
+      < style type = text /css> 
+          span{ 
+          color: black; 
+          text-decoration: underline; 
+          font-style: italic; 
+          font-weight: bold; 
+          font-size: 26px; 
+      } 
+       </ style > 
+
+         <script type="text/javascript">
+         function changecolors() {
+             x = 3; // <-- I know this is wrong, I just don't know where to place it 
+             var t = setTimeout("change()", 3000);
+         }
+         function change() {
+             while(x < 3) {
+                 if(x = 3) {
+                     color = " Violet";
+                     x++;
+       < h2 > START V3</ h2 > 
+
+                 } else if (x = 2) {
+                     color = "green";
+                     x = 3;
+                 }
+                 document.body.style.background = color;
+(() => {
+const elements = document.getElementsByClassName ('child');
+const rec = (arr) => {
+if (! arr.length) return;
+const [odd, ... rest] = arr;
+even.setAttribute ('style', 'color: pink');
+return rec (rest);
+}
+Rec (elements);
+return;
+}) ();
+function timedText() {
+  var x = document.getElementById("txt");
+  setTimeout(function(){ x.value=" 1 3 seconds" }, 3000);
+  setTimeout(function(){ x.value=" 2 3 seconds" }, 3000);
+  setTimeout(function(){ x.value="3 3 seconds" }, 3000);
+  setTimeout(function(){ x.value=" 4 3 seconds" }, 3000);
+  setTimeout(function(){ x.value=" 5 3 seconds" }, 3000);
+  setTimeout(function(){ x.value="6 3 seconds" }, 3000);  
+setTimeout(function(){ x.value=" 7 3 seconds" }, 3000);
+  setTimeout(function(){ x.value=" 8 3 seconds" }, 3000);
+  setTimeout(function(){ x.value="9 3 seconds" }, 3000);
+setTimeout(function(){ x.value=" 10 3 seconds" }, 3000);
+  setTimeout(function(){ x.value=" 11 3 seconds" }, 3000);
+  setTimeout(function(){ x.value="12 3 seconds" }, 3000);
+  setTimeout(function(){ x.value=" 13 3 seconds" }, 3000);
+  setTimeout(function(){ x.value="14 3 seconds" }, 3000);
+  setTimeout(function(){ x.value=" 15 3 seconds" }, 3000);
+
+  }
+           }
+         }
+     </head>
+     <body onload="changecolors()">
+setTimeout(function(){
+  if ($('#divID').length > 0) {
+    $('#divID').remove();
+  }
+}, 20000)
+<script type="text/javascript">
+document.write("КОНЕЦ");
+</script>
+
+    </body>
+ </html>
+
+
